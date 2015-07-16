@@ -7,10 +7,11 @@ format: Markdown
 > **Oh Shazam, it uses Markdown!!!** I may now fall in *love* with it since I think Markdown is better than all other things.
 
 
-Now I will make a [sub-page](sub-page)
 =======
 > Because Markdown IS Better than all other things! Also, lookit all those export formats!!!! Yow!!!!
 =======
+
+Now I will make a [sub-page](sub-page)
 
 This is the front page of your new gitit wiki.  You can edit this
 page by clicking on the "edit" tab at the top of the screen.
