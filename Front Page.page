@@ -14,7 +14,7 @@ format: Markdown
 here is another edit!
 Now I will make a [sub-page](sub-page)
 
-Here's a [Markdown]Markdown guide, created from HTML.
+Here's a [Markdown](Markdowns) guide, created from HTML.
 
 This is the front page of your new gitit wiki.  You can edit this
 page by clicking on the "edit" tab at the top of the screen.
