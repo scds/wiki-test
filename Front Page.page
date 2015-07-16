@@ -1,10 +1,10 @@
-> # Oh Shazam, it uses Markdown!!!
-
 ---
 format: Markdown
 ...
 
 # Welcome to Gitit!
+
+> **Oh Shazam, it uses Markdown!!!** I may now fall in *love* with it since I think Markdown is better than all other things.
 
 This is the front page of your new gitit wiki.  You can edit this
 page by clicking on the "edit" tab at the top of the screen.
