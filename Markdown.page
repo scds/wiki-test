@@ -2,122 +2,752 @@
 format: html
 ...
 
-<nav class="navbar navbar-default">
-      <div class="container">
-        <ul class="nav navbar-nav">
-          <li><a class="nav-link icon-github" href="//github.com/gjtorikian/markdown-tutorial" data-toggle="tooltip" data-original-title="Get the source code to this website"></a></li>
+<html>
 
-        </ul>
-        <ul id="progress-bar" class="nav navbar-nav navbar-right">
-          <li><a class="lesson icon-circle" href="//markdowntutorial.com/lesson/1" data-toggle="tooltip" data-original-title="Italics and Bold"></a></li>
-          <li><a class="lesson icon-circle-blank" href="//markdowntutorial.com/lesson/2" data-toggle="tooltip" data-original-title="Headers"></a></li>
-          <li><a class="lesson icon-circle-blank" href="//markdowntutorial.com/lesson/3" data-toggle="tooltip" data-original-title="Links"></a></li>
-          <li><a class="lesson icon-circle-blank" href="//markdowntutorial.com/lesson/4" data-toggle="tooltip" data-original-title="Images"></a></li>
-          <li><a class="lesson icon-circle-blank" href="//markdowntutorial.com/lesson/5" data-toggle="tooltip" data-original-title="Blockquotes"></a></li>
-          <li><a class="lesson icon-circle-blank" href="//markdowntutorial.com/lesson/6" data-toggle="tooltip" data-original-title="Lists"></a></li>
-          <li><a class="lesson icon-circle-blank" href="//markdowntutorial.com/lesson/7" data-toggle="tooltip" data-original-title="Paragraphs"></a></li>
-          <li><a class="lesson icon-circle-blank" href="//markdowntutorial.com/conclusion" data-toggle="tooltip" data-original-title="Conclusion"></a></li>
-        </ul>
-      </div>
-    </nav><!-- /.navbar -->
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;}
+@font-face
+	{font-family:"Lucida Console";
+	panose-1:2 11 6 9 4 5 4 2 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
 
-    <div class="container">
-      <div id="heroku-alert" class="alert alert-info" style="display:none">
-        Don't use this ugly Heroku app URL! Check out <a href="http://www.markdowntutorial.com">www.markdowntutorial.com</a> instead.
-      </div>
-      <hr>
+</head>
 
-        <div class="row">
+<body lang=EN-CA>
 
-  <p>We'll start by learning two basic elements in text formatting: <em>italics</em>
-  and <strong>bold</strong>. In these lessons, you'll notice some <code>formatted red text</code>;
-  this text is actually written in Markdown! Regular Markdown doesn't look any different
-  than regular text, but we're providing some highlighting to make it easier to see.</p>
+<div class=WordSection1>
 
-  <p>To make a phrase <em>italic</em> in Markdown, you can surround words with an
-  underscore (<code>_</code> ). For example, <code>_this_</code> word would become
-  <em>italic</em>.</p>
+<p class=MsoNormal align=center style='margin-top:18.0pt;margin-right:0cm;
+margin-bottom:6.0pt;margin-left:0cm;text-align:center;line-height:36.0pt;
+background:#FFFDFA'><span style='font-size:36.0pt;font-family:"Helvetica","sans-serif";
+letter-spacing:.75pt'>Markdown Cheat Sheet</span></p>
 
-  <p>For this next lesson, make the word "not" italic.</p>
+<p class=MsoNormal style='margin-top:1.2pt;margin-right:0cm;margin-bottom:12.0pt;
+margin-left:0cm;line-height:24.0pt;background:#FFFDFA'><span style='font-size:
+15.5pt;font-family:"Georgia","serif"'>A cheatsheet of Markdown and&nbsp;<a
+href="http://michelf.com/projects/php-markdown/extra/"><span style='color:#5896D2;
+text-decoration:none'>Markdown Extra</span></a>. See the the complete&nbsp;<a
+href="http://daringfireball.net/projects/markdown/syntax"><span
+style='color:#5896D2;text-decoration:none'>Markdown syntax</span></a>&nbsp;for
+extra tasty details, and remember that Markdown Extra isn’t Markdown (but it’s
+sometimes handy).</span></p>
 
-  <div class="col-md-5 scratchpad"></div>
-  <span class="help-tooltip icon-question" data-toggle="tooltip" data-original-title="Type your answers in the left box, and the resulting Markdown appears in the right box. When your answer is correct, you'll be taken to the next lesson"></span>
-  <div class="col-md-5 renderpad"></div>
+<div style='border:solid #CCCCCC 1.0pt;padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'># Header 1
+#</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>## Header 2
+##</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>### Header
+3 ###             (Hashes on right are optional)</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>#### Header
+4 ####</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>#####
+Header 5 #####</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>## Markdown
+plus h2 with a custom ID ##         {#id-goes-here}</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>[</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Link</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> back to H2</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>](#</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>id</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>-</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>goes</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>-</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>here</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>)</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>This</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>is</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> a paragraph</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>,</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> which </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>is</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> text
+surrounded </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#000088'>by</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> whitespace</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>.</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#660066'>Paragraphs</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> can be on one </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>line </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>(</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>or</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> many</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>),</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>and</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> can drone on
+</span><span style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>for</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> hours</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>.</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Here</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>is</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> a </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Markdown</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> link to </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>[</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Warped</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>](</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>http</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>:</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>//warpedvisions.org),
+and a literal &lt;http://link.com/&gt;. </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Now</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> some </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>SimpleLinks</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>,</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> like one to </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>[</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>google</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>]</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>(</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>automagically
+links to are</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>-</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'>you</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>-</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>feeling</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>-</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>lucky</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>),</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> a </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>[</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>wiki</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>:</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> test</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>]</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> link to a </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Wikipedia</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> page</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>,</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>and</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> a link to </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>[</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>foldoc</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>:</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> CPU</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>]</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>s at foldoc</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>.</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Now</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> some </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>inline</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> markup like
+_italics_</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>,</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'>  </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>**</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'>bold</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>**,</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#000088'>and</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#008800'>`code()`</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>.</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#660066'>Note</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> that underscores </span><span style='font-size:10.0pt;font-family:
+"Lucida Console";color:#000088'>in</span><span style='font-size:10.0pt;
+font-family:"Lucida Console";color:black'> </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>words are
+ignored </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#000088'>in</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#660066'>Markdown</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#660066'>Extra</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>.</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>![</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>picture alt</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>](</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#008800'>/images/</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>photo</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>.</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>jpeg </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#008800'>&quot;Title
+is optional&quot;</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>)</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'>     </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>&gt;</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Blockquotes</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> are like
+quoted text </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#000088'>in</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> email replies</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>&gt;&gt;</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>And</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>,</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> they can be
+nested</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Bullet</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> lists are
+easy too</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>-</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Another</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> one</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>+</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Another</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> one</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#006666'>1.</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> A numbered
+list</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#006666'>2.</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Which</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>is</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> numbered</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#006666'>3.</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>With</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> periods </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>and</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> a space</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>And</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> now some
+code</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>:</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>    </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>// Code is
+just text indented a bit</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>    which</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>(</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>is_easy</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>)</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> to_remember</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>();</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>~~~</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>// Markdown
+extra adds un-indented code blocks too</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>if</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>(</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>this_is_more_code
+</span><span style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>==</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>true</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>&amp;&amp;</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>!</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>indented</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>)</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>{</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>    </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>// tild
+wrapped code blocks, also not indented</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>}</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>~~~</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Text</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>with</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>two trailing
+spaces  </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>(</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>on the right</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>)</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>can be used  </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>for</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> things like
+poems  </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>###
+Horizontal rules</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>****</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>--------------------------</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>&lt;</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>div </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>class</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>=</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#008800'>&quot;custom-class&quot;</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> markdown</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>=</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#008800'>&quot;1&quot;</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>&gt;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>This</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>is</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> a div
+wrapping some </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#660066'>Markdown</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> plus</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>.</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'>  </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#660066'>Without</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'> the DIV attribute</span><span style='font-size:10.0pt;font-family:
+"Lucida Console";color:#666600'>,</span><span style='font-size:10.0pt;
+font-family:"Lucida Console";color:black'> it ignores the </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>block</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>.</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>&lt;/</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>div</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>&gt;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>## Markdown
+plus tables ##</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Header</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Header</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Right</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>------</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>------</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>-----:</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Cell</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Cell</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>   $10  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Cell</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Cell</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>   $20  </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>|</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Outer</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> pipes on
+tables are optional</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Colon</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> used </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>for</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> alignment </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>(</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>right versus
+left</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>)</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#880000'>## Markdown
+plus definition lists ##</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Bottled</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> water</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>:</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> $ </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#006666'>1.25</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>:</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> $ </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#006666'>1.55</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>(</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Large</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>)</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Milk</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Pop</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>:</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> $ </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#006666'>1.75</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Multiple</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> definitions </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#000088'>and</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> terms are
+possible</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Definitions</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> can include
+multiple paragraphs too</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-top:24.0pt;margin-right:0cm;margin-bottom:
+24.0pt;margin-left:0cm;line-height:14.5pt;border:none;padding:0cm'><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>*[</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'>ABBR</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#666600'>]:</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> </span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:#660066'>Markdown</span><span
+style='font-size:10.0pt;font-family:"Lucida Console";color:black'> plus
+abbreviations </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#666600'>(</span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:black'>produces an </span><span style='font-size:10.0pt;font-family:"Lucida Console";
+color:#008800'>&lt;abbr&gt;</span><span style='font-size:10.0pt;font-family:
+"Lucida Console";color:black'> tag</span><span style='font-size:10.0pt;
+font-family:"Lucida Console";color:#666600'>)</span></p>
+
 </div>
-<button class="btn btn-default btn-skip">Skip</button>
 
-<div class="toBeRevealed">
-  <div class="row">
-  <hr>
-  <p>Awesome! Great job.</p>
-  <p>Similarly, to make phrases <strong>bold</strong> in Markdown, you can surround
-    words with two asterisks ( <code>**</code> ). This will <code>**really**</code>
-    get your point across.</p>
-  <p>In the box below, make the word "will" bold.</p>
-    <div class="col-md-5 scratchpad"></div>
-    <div class="col-md-5 renderpad"></div>
-  </div>
-  <button class="btn btn-default btn-skip">Skip</button>
+<p class=MsoNormal>&nbsp;</p>
+
 </div>
 
+</body>
 
-<div class="toBeRevealed">
-  <div class="row">
-  <hr>
-  <p>Good work!</p>
-  <p>Of course, you can use <code>_both italics and bold_</code> in the same line.
-    You can also span them <code>**across multiple words**</code>.</p>
-  <p>In the box below, make the words "Of course" italic, and the words "a little moxie" bold.</p>
-    <div class="col-md-5 scratchpad"></div>
-    <div class="col-md-5 renderpad"></div>
-  </div>
-  <button class="btn btn-default btn-skip">Skip</button>
-</div>
-
-
-<div class="toBeRevealed">
-  <div class="row">
-    <hr>
-    <p>Fantastic!</p>
-    <p>For the final exercise in this lesson, we're going to make some words <em>bold
-    <strong>and</strong> italic</em>.</p>
-    <p>In general, it doesn't matter which order you place the asterisks or underscores.
-      In the box below, make the words "This is unbelievable" both bold and italic.
-      Place the asterisks <code>**_on the outside_**</code>, just to make it more legible.</p>
-    <div class="col-md-5 scratchpad"></div>
-    <div class="col-md-5 renderpad"></div>
-  </div>
-  <button class="btn btn-default btn-skip">Skip</button>
-</div>
-
-
-<div class="toBeRevealed">
-  <hr>
-  <p>Now you know how to make things bold and italic in Markdown!</p>
-  <a class="btn btn-lg btn-success" href="//markdowntutorial.com/lesson/2">On to the next lesson!</a>
-</div>
-
-
-      <hr>
-
-      <div class="footer">
-
-      </div>
-
-    </div> <!-- /container -->
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script>
-      // TODO: If possible, we should make this change to "development" where
-      // appropriate.
-      var environment = 'production';
-    </script>
-
-    <script src="//markdowntutorial.com/js/ga.js"></script>
-    <script src="//markdowntutorial.com/js/lesson_plans.js"></script>
-    <script src="//markdowntutorial.com/js/lessons.js"></script>
-    <script src="//markdowntutorial.com/js/marked.js"></script>
-    <script src="//markdowntutorial.com/js/navbar.js"></script>
-    <script src="//markdowntutorial.com/js/scrollto.js"></script>
+</html>
